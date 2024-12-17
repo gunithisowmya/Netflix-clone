@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Netflix Clone</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <nav><div class="logo">Netflix</div></nav>
+    <div class="signup-container">
+        <div class="signup-box">
+            <h2>Sign Up</h2>
+            <form action="index.html" method="post" class="signup-form">
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <!-- Confirm Password -->
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password"
+                        placeholder="Re-enter your password" required>
+                </div>
+
+                <!-- Signup Button -->
+                <button type="submit" class="btn-signup">Sign Up</button>
+
+                <!-- Already have an account -->
+                <p class="login-link">
+                    Already have an account? <a href="signin.html">Sign In</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Netflix Clone. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">Netflix Clone</div>
+        <nav>
+            <ul>
+                <li class="link"><a href="#home">Home</a></li>
+                <li class="link"><a href="#TV Shows">TV Shows</a></li>
+                <li class="link"><a href="#movies-section">Movies</a></li>
+                <li class="link"><a href="#list">My List</a></li>
+            </ul>
+        </nav>
+        <button class="btn-signup" onclick="window.location.href='signin.html'">Sign In</button>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Unlimited movies, </h1>
+            <h1>TV shows and more</h1>
+            <p>Watch your favorite movies and shows anytime, anywhere.</p>
+            <button class="btn-watch-now" id="movies-section">Watch Now</button>
+        </div>
+    </section>
+
+    <section class="movies-section" id="movies-section">
+        <h2>Popular Movies</h2>
+        <div class="movies-grid">
+            <div class="movie-card">
+                <img src="images/movie1.jpeg" alt="Movie 1">
+            </div>
+            <div class="movie-card">
+                <img src="images/movie2.jpeg" alt="Movie 2">
+            </div>
+            <div class="movie-card">
+                <img src="images/movie3.jpeg" alt="Movie 3">
+            </div>
+            <div class="movie-card">
+                <img src="images/movie4.jpeg" alt="Movie 4">
+            </div>
+            <div class="movie-card">
+                <img src="images/movie5.jpeg" alt="Movie 5">
+            </div>
+            <div class="movie-card">
+                <img src="images/movie6.jpeg" alt="Movie 6">
+            </div>
+            <div class="movie-card">
+                <img src="images/movie7.jpeg" alt="Movie 7">
+            </div>
+            
+            <!-- Add more movie cards as needed -->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Netflix Clone. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

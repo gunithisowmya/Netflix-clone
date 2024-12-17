@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">Netflix</div>
+    <nav>
+        <ul>
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#TV Shows">TV Shows</a></li>
+            <li class="link"><a href="#movies-section">Movies</a></li>
+            <li class="link"><a href="#list">My List</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="signin-background">
+        <div class="signin-overlay"></div>
+        <div class="signin-container">
+            <div class="signin-content">
+                <form action="index.html" method="post" class="signin-form">
+                    <h1>Sign In</h1>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email or phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn-signin">Sign In</button>
+                    <div class="form-options">
+                        <div>
+                            <input type="checkbox" id="remember-me">
+                            <label for="remember-me">Remember me</label>
+                        </div>
+                        <a href="forgot-password">Forgot Password?</a>
+                    </div>
+                    <p class="signup-link">New to Netflix Clone? <a href="signup.html">Sign up now</a>.</p>
+                    <p class="disclaimer">
+                        This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more</a>.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+        
+</body>
+
+</html>
